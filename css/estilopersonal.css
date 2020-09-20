@@ -104,6 +104,18 @@ a:hover {
     }
 }
 
+
+/*submenu*/
+
+.submenu {
+    position: absolute;
+    background: #333333;
+}
+
+.submenu li a {
+    display: block;
+}
+
 h1 {
     color: #FFF;
     line-height: 1.3em;
