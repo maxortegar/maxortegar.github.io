@@ -1,0 +1,545 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-top: 150px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a ion-icon {
+    font-size: 22px;
+    color: white;
+}
+
+.topmargin-xs {
+    margin-top: 15px !important;
+}
+
+.topmargin-sm {
+    margin-top: 30px !important;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.bg-light-grey {
+    background-color: #b1b1b1;
+}
+
+.bg-darkfotter {
+    background-color: #1a1a1a !important;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-ligth {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 2px solid #ffffff;
+}
+
+.btn ion-icon {
+    font-size: 14px;
+    margin-left: 5px;
+    color: black;
+}
+
+.btn-dark {
+    background-color: #1a1a1a;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-transparent:hover {
+    color: white;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.text-dark {
+    color: black;
+}
+
+.divider {
+    border-bottom: 2px solid #e2e2e2;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 20px 0 rgb(0, 0, 0.05);
+    min-height: 100px;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.logo-max {
+    min-width: 167px;
+    max-width: 147px;
+}
+
+.navbar-toggler {
+    font-size: 40px !important;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+#hero {
+    background-image: url('../img/mon2.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 875px;
+    color: #ffffff;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.portafolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portafolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portafolio-container:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.portafolio-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portafolio-details a h2,
+.portafolio-details a p {
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.member-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details {
+    position: absolute;
+    color: white;
+    bottom: 0px;
+    left: 20px;
+}
+
+.member-details span {
+    font-size: 14px;
+}
+
+.member-details ion-icon {
+    padding: 0 5px;
+}
+
+.pricing-container {
+    margin: 15px 0;
+}
+
+.plans {
+    padding: 50px 80px;
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.plan-light {
+    background-color: white;
+    border: 2px solid #1a1a1a;
+}
+
+.plan-dark {
+    background-color: #1a1a1a;
+    border: 2px solid #1a1a1a;
+    color: white;
+}
+
+.plans h2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.plans span {
+    font-size: 20px;
+}
+
+.plans ul {
+    list-style-type: square;
+}
+
+#testimonios {
+    background-color: #b1b1b1;
+}
+
+.carousel {
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.carousel p {
+    font-size: 26px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.carousel-indicatiors li {
+    background-color: #1a1a1a;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    color: white;
+    opacity: 1;
+    width: 5%;
+}
+
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.control-button {
+    background-color: #1a1a1a;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #1a1a1a;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.rating ion-icon {
+    color: rgb(255, 217, 0);
+    font-size: 26px;
+}
+
+.testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.testimonial-user h6 {
+    margin-bottom: 0px;
+}
+
+.testimonial-user span {
+    font-size: 12px;
+}
+
+.testimonial-user img {
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 40px;
+        line-height: normal;
+    }
+    .portafolio-details h2 {
+        font-size: 25px;
+    }
+    .plans {
+        min-width: unset;
+        padding: 40px;
+    }
+    .carousel-item p {
+        font-size: 20px;
+    }
+    .footer-menu {
+        display: block !important;
+        padding: 20px !important;
+        font-size: 20px;
+    }
+    .album p {
+        font-size: 15px;
+    }
+    .video {
+        width: 350px;
+    }
+    .form-register {
+        display: block !important;
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .portafolio-details h2 {
+        font-size: 30px;
+    }
+    .plans {
+        min-width: unset;
+        padding: 40px 20px;
+    }
+    .galeria {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .close {
+        top: 20px;
+        right: 20px;
+    }
+    .video {
+        width: 400px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {}
+
+
+/*Formulario Contact*/
+
+#contacto {
+    background-color: #b1b1b1;
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 90px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+.form-register h5 {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+/*Galeria*/
+
+.album h1 {
+    text-align: center;
+}
+
+.video {
+    margin: 100px auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    display: block;
+}
+
+.linea {
+    background: #0065e9;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    width: 100%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.galeria>a {
+    display: block;
+    position: static;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgb(0, 0, .5);
+}
+
+.galeria img {
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+    transition: transform .5s;
+}
+
+.galeria a:hover img {
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+}
+
+.light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, .5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 130vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+}
+
+.light-box img {
+    width: 75vw;
+    max-height: 100vh;
+}
+
+.light-box:target {
+    transform: scale(1);
+}
+
+.close {
+    display: block;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    background: #e42f02;
+    color: #FFF;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.next {
+    display: block;
+    color: #FFF;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/*Footer new*/
+
+#footer {
+    padding: 80px 0;
+    text-align: center;
+    color: white;
+}
+
+#footer a {
+    color: rgb(28, 107, 77);
+}
+
+#footer a:hover {
+    color: white;
+}
+
+#footer .list-inline .list-inline-item {
+    padding: 10px 10px;
+}
