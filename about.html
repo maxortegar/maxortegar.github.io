@@ -3,89 +3,104 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Max Ortega</title>
-    <link href="css/estilopersonal.css" rel="stylesheet" type="text/css">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/icomoon/style.css">
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </head>
 
 <body>
-    <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <nav class="navigation">
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <label class="logo"><img src="img\logo.png" alt="" width="150"/></label>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a class="active" href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTAC</a></li>
-                    <li><a href="carta05.html">CARTA</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+            <a class="navbar-brand" href="#"><img src="img/logo1.png" class="logo-max" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <ion-icon name="menu-outline"></ion-icon>
+        </button>
 
-    <main class="main">
-        <video class="center" controls>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tareas
+              </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="carta05.html">carta</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="album bg-light-grey">
+        <video class="video" controls>
             <source src="video\isla.mp4" type="video/mp4"/>
         </video>
-
         <div class="container">
             <br>
             <h1>Galeria de imagenes</h1>
             <span class="linea"></span>
             <section class="galeria">
-                <a href="#image1"><img src="img\g1.png" alt="" width="300px" height="180px"></a>
-                <a href="#image2"><img src="img\g2.png" alt="" width="300px" height="180px"></a>
-                <a href="#image3"><img src="img\g3.png" alt="" width="300px" height="180px"></a>
-                <a href="#image4"><img src="img\g4.jpg" alt="" width="300px" height="180px"></a>
-                <a href="#image5"><img src="img\g5.jpg" alt="" width="300px" height="180px"></a>
-                <a href="#image6"><img src="img\g6.jpg" alt="" width="300px" height="180px"></a>
+                <a href="#image1"><img src="img\car1.jpg" alt="" width="300px" height="180px"></a>
+                <a href="#image2"><img src="img\car2.jpg" alt="" width="300px" height="180px"></a>
+                <a href="#image3"><img src="img\car3.jpg" alt="" width="300px" height="180px"></a>
+                <a href="#image4"><img src="img\car4.jpg" alt="" width="300px" height="180px"></a>
+                <a href="#image5"><img src="img\car5.jpg" alt="" width="300px" height="180px"></a>
+                <a href="#image6"><img src="img\car6.jpg" alt="" width="300px" height="180px"></a>
             </section>
 
             <article class="light-box" id="image1">
                 <a href="#image6" class="next"><i class="fas fa-arrow-alt-circle-left"></i></a>
-                <img src="img\g1.png" alt="" width="60%">
+                <img src="img\car1.jpg" alt="" width="60%">
                 <a href="#image2" class="next"><i class="fas fa-arrow-alt-circle-right"></i></a>
                 <a href="#" class="close">x</a>
             </article>
 
             <article class="light-box" id="image2">
                 <a href="#image1" class="next"><i class="fas fa-arrow-alt-circle-left"></i></a>
-                <img src="img\g2.png" alt="" width="60%">
+                <img src="img\car2.jpg" alt="" width="60%">
                 <a href="#image3" class="next"><i class="fas fa-arrow-alt-circle-right"></i></a>
                 <a href="#" class="close">x</a>
             </article>
 
             <article class="light-box" id="image3">
                 <a href="#image2" class="next"><i class="fas fa-arrow-alt-circle-left"></i></a>
-                <img src="img\g3.png" alt="" width="60%">
+                <img src="img\car3.jpg" alt="" width="60%">
                 <a href="#image4" class="next"><i class="fas fa-arrow-alt-circle-right"></i></a>
                 <a href="#" class="close">x</a>
             </article>
 
             <article class="light-box" id="image4">
                 <a href="#image3" class="next"><i class="fas fa-arrow-alt-circle-left"></i></a>
-                <img src="img\g4.jpg" alt="" width="60%">
+                <img src="img\car4.jpg" alt="" width="60%">
                 <a href="#image5" class="next"><i class="fas fa-arrow-alt-circle-right"></i></a>
                 <a href="#" class="close">x</a>
             </article>
 
             <article class="light-box" id="image5">
                 <a href="#image4" class="next"><i class="fas fa-arrow-alt-circle-left"></i></a>
-                <img src="img\g5.jpg" alt="" width="60%">
+                <img src="img\car5.jpg" alt="" width="60%">
                 <a href="#image6" class="next"><i class="fas fa-arrow-alt-circle-right"></i></a>
                 <a href="#" class="close">x</a>
             </article>
 
             <article class="light-box" id="image6">
                 <a href="#image5" class="next"><i class="fas fa-arrow-alt-circle-left"></i></a>
-                <img src="img\g6.jpg" alt="" width="60%">
+                <img src="img\car6.jpg" alt="" width="60%">
                 <a href="#image1" class="next"><i class="fas fa-arrow-alt-circle-right"></i></a>
                 <a href="#" class="close">x</a>
             </article>
@@ -94,33 +109,66 @@
             <p>
                 Para el optimista, el vaso está medio lleno. Para el pesimista, el vaso está medio vacío. Para el ingeniero, el vaso es el doble de grande de lo que debería ser. Te comparto algunas fotos :)
             </p>
-
         </div>
-    </main>
+    </section>
 
-    <footer class="footer">
+    <section id="footer" class="bg-darkfotter">
         <div class="container">
-            <center>
-                <table>
-                    <tr>
-                        <td>
-                            <a href="https://www.instagram.com/maxortegar" target="_blank"><img src="https://img.icons8.com/nolan/64/instagram-new.png" /></a>
-                        </td>
-                        <td>
-                            <a href="https://web.facebook.com/MaxOrtegar" target="_blank"><img src="https://img.icons8.com/nolan/64/facebook-new.png" /></a>
-                        </td>
-                        <td>
-                            <a href="https://twitter.com/MaxOrtegaR" target="_blank"><img src="https://img.icons8.com/nolan/64/twitter.png" /></a>
-                        </td>
-                        <td>
-                            <a href="https://web.whatsapp.com" target="_blank"><img src="https://img.icons8.com/nolan/64/pinterest.png" /></a>
-                        </td>
-                    </tr>
-                </table>
-            </center>
-            <p>Designed by @MaxOrtega</p>
+            <img src="img/logo2.png" class="logo-max" alt="logo">
+            <ul class="list-inline">
+                <li class="list-inline-item footer-menu"><a href="index.html">Inicio</a></li>
+                <li class="list-inline-item footer-menu"><a href="about.html">Nosotros</a></li>
+                <li class="list-inline-item footer-menu"><a href="contact.html">Contacto</a></li>
+            </ul>
+
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                        <ion-icon name="logo-pinterest"></ion-icon>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                        <ion-icon name="logo-tumblr"></ion-icon>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                        <ion-icon name="logo-dribbble"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <small>MR.TIBOX 2020 Copyright © Todos los derechos reservados - Política de privacidad - Contact us / Contacta con nosotros</small>
         </div>
-    </footer>
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 
 </body>
 
