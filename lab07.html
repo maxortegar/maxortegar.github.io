@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 07</title>
+    <link href="css/estilolab07.css" rel="stylesheet">
+</head>
+
+<body>
+    <img id="icon01" src="img/logo1.png" alt="a car">
+    <button onclick="funcion();">pulsame</button>
+
+    <section id="formularios" class="fondo-formulario">
+        <div class="container">
+            <h1 id="intro" class="content-center">LAB 07: TALLER DE JAVASCRIPT</h1>
+            <table class="tabla">
+                <tr>
+                    <td class="azul">Apellidos y nombres: </td>
+                    <td><input type="text" name="txtNombres" size="40" placeholder="Ingrese apellidos y nombres"></td>
+                    <td rowspan="2"><input class="botons a" type="submit" onsubmit="funcion1()" value="Extraer"><input class="botons rojo" type="submit" value="Colorear"></td>
+                </tr>
+                <tr>
+                    <td class="azul">Fecha de nacimiento: </td>
+                    <td><input type="text" name="txtFecha" size="40" placeholder="Ingrese fecha de nacimiento"></td>
+                </tr>
+            </table>
+            <table class="tabla">
+
+                <tr>
+                    <td class="azul">Apellido paterno: </td>
+                    <td><input type="text" name="txtAP" size="20"></td>
+                    <td class="rojo">Longitud de apellido: </td>
+                    <td><input type="text" name="txtLA" size="20"></td>
+                </tr>
+                <tr>
+                    <td class="azul">Apellido materno: </td>
+                    <td><input type="text" name="txtAM" size="20"></td>
+                    <td class="rojo">Edad: </td>
+                    <td><input type="text" name="txtE" size="20"></td>
+                </tr>
+                <tr>
+                    <td class="azul">Nombres: </td>
+                    <td><input type="text" name="txtN" size="20"></td>
+                    <td class="rojo">Mes en letras: </td>
+                    <td><input type="text" name="txtM" size="20"></td>
+                </tr>
+
+            </table>
+        </div>
+    </section>
+    <script src="script/lab07.js"></script>
+</body>
+
+</html>
