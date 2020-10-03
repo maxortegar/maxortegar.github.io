@@ -1,10 +1,14 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .fondo-formulario {
     background-color: #c1dafa;
     margin-top: 20px;
     margin-right: 100px;
     margin-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .content-center {
@@ -14,7 +18,7 @@
 }
 
 .tabla {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto 30px auto;
     border-spacing: 2px;
     color: white;
@@ -23,18 +27,35 @@
 
 .rojo {
     background-color: rgb(207, 71, 71);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .azul {
     background-color: #337ddf;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.a {
-    background-color: #c9a33a;
-}
-
-.botons {
+.boton {
     padding: 5px 40px 5px 40px;
     border-radius: 5px;
     margin-left: 10px;
+    color: white;
+}
+
+.am {
+    background-color: #c9a33a;
+}
+
+.ro {
+    background-color: rgb(207, 71, 71);
+}
+
+.az {
+    background-color: #337ddf;
+}
+
+.llenado {
+    padding: 5px;
 }
