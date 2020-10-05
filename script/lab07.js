@@ -1,17 +1,5 @@
-let flag = 1;
-
-function funcion() {
-    let cambiimagen = document.getElementById("icon01");
-    if (flag == 1) {
-        cambiimagen.src = "img/logo2.png";
-        flag = 0;
-    } else {
-        cambiimagen.src = "img/logo1.png";
-        flag = 1;
-    }
-}
-
-function funcionExtraer() {
+const btnExtraer = document.getElementById("btnExtraer");
+btnExtraer.addEventListener('click', function() {
     let nombres = document.getElementById("txtNombres").value;
     let fecha = document.getElementById("txtFecha").value;
 
@@ -104,7 +92,7 @@ function funcionExtraer() {
         }
 
     }
-}
+})
 
 
 const btnCambiarColor = document.getElementById("btnCambiarColor");
@@ -152,8 +140,8 @@ btnCambiarColor.addEventListener('click', function() {
 });
 
 
-
-function limpiar() {
+const btnLimpiar = document.getElementById("btnLimpiar");
+btnLimpiar.addEventListener('click', function() {
     document.getElementById("txtNombres").focus();
     document.getElementById("txtNombres").value = "";
     document.getElementById("txtFecha").value = "";
@@ -163,4 +151,4 @@ function limpiar() {
     document.getElementById("txtLA").value = "";
     document.getElementById("txtE").value = "";
     document.getElementById("txtM").value = "";
-}
+})
