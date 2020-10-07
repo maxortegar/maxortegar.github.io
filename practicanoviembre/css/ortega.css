@@ -1,0 +1,16 @@
+#articulos {
+    margin-top: 60px;
+}
+
+.topmargin-xs {
+    margin-top: 10px;
+}
+
+.topmargin-sm {
+    margin-top: 20px;
+}
+
+.topmargin-lg {
+    margin-top: 60px;
+    margin-left: 100px;
+}
