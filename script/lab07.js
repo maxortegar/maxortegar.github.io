@@ -3,9 +3,9 @@ btnExtraer.addEventListener('click', function() {
     let nombres = document.getElementById("txtNombres").value;
     let fecha = document.getElementById("txtFecha").value;
 
-    var fullname = nombres.split(' ');
-    var f = new Date();
-    var mes = fecha.substring(3, 5);
+    let fullname = nombres.split(' ');
+    let f = new Date();
+    let mes = fecha.substring(3, 5);
 
     if (nombres == "") {
         document.getElementById("txtNombres").focus();
@@ -16,10 +16,10 @@ btnExtraer.addEventListener('click', function() {
             /*console.log(nombres + " " + fecha + " " + n + " " + mes);*/
 
             if (fullname.length == 3) {
-                var primernombre = fullname[0];
-                var primerapellido = fullname[1];
-                var segundoapellido = fullname[2];
-                var numerocaracteres = (primerapellido + segundoapellido).length;
+                let primernombre = fullname[0];
+                let primerapellido = fullname[1];
+                let segundoapellido = fullname[2];
+                let numerocaracteres = (primerapellido + segundoapellido).length;
 
                 document.getElementById("txtAP").value = primerapellido;
 
