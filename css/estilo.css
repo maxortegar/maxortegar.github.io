@@ -46,7 +46,8 @@ section {
 }
 
 .bg-light-grey {
-    background-color: #b1b1b1;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 
 .bg-darkfotter {
@@ -89,6 +90,59 @@ section {
     color: white;
 }
 
+
+/*boton color degradado*/
+
+.btn-gradi {
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%)
+}
+
+.btn-gradi {
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 30px;
+}
+
+.btn-gradi:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(-3px);
+}
+
+.btn-gradi:active {
+    transform: translateY(3px);
+}
+
+
+/*Link Degradado*/
+
+.link-gradient {
+    font-size: 32px;
+    font-family: 'Sansita Swashed', cursive;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.link-gradient:hover {
+    background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+
 .full-width {
     width: 100%;
 }
@@ -102,7 +156,8 @@ section {
 }
 
 .navbar {
-    background-color: rgb(255, 255, 255);
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 50%, #ffffff 100%);
     box-shadow: 0 1px 20px 0 rgb(0, 0, 0.05);
     min-height: 100px;
 }
@@ -125,7 +180,8 @@ section {
 }
 
 #hero {
-    background-image: url('../img/mon2.jpg');
+    background-color: #313131;
+    background-image: linear-gradient(to left, #0f0c29, #302b63, #24243e);
     background-size: cover;
     padding-top: 90px;
     min-height: 875px;
@@ -359,7 +415,7 @@ section {
 /*Formulario Contact*/
 
 #contacto {
-    background-color: #b1b1b1;
+    background: linear-gradient(to left, #000428, #004e92);
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
