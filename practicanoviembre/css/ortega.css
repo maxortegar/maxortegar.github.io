@@ -12,5 +12,27 @@
 
 .topmargin-lg {
     margin-top: 60px;
-    margin-left: 100px;
+    margin-left: 50px;
+}
+
+.button {
+    border: 0;
+    color: white;
+    margin-right: 95px;
+}
+
+.c-r {
+    background-color: rgb(250, 64, 40);
+}
+
+.c-a {
+    background-color: rgb(255, 153, 0);
+}
+
+.c-v {
+    background-color: rgb(149, 22, 253);
+}
+
+.llenado {
+    border: 0;
 }
