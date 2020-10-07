@@ -3,7 +3,7 @@
 }
 
 .topmargin-xs {
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 .topmargin-sm {
@@ -12,13 +12,28 @@
 
 .topmargin-lg {
     margin-top: 60px;
-    margin-left: 50px;
+    margin-left: 75px;
 }
 
 .button {
     border: 0;
     color: white;
-    margin-right: 95px;
+}
+
+.icon1 {
+    margin-left: 125px;
+}
+
+.icon2 {
+    margin-left: 90px;
+}
+
+.icon3 {
+    margin-left: 160px;
+}
+
+.icon4 {
+    margin-left: 150px;
 }
 
 .c-r {
@@ -33,6 +48,30 @@
     background-color: rgb(149, 22, 253);
 }
 
-.llenado {
+.tr {
+    color: rgb(250, 64, 40);
+}
+
+.ta {
+    color: rgb(255, 153, 0);
+}
+
+.tv {
+    color: rgb(149, 22, 253);
+}
+
+.form {
     border: 0;
+}
+
+.espacio {
+    margin-left: 60px;
+}
+
+.marder {
+    border-right: 1px solid rgb(255, 145, 0);
+}
+
+#fotos {
+    display: none;
 }
